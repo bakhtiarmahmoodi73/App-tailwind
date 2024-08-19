@@ -553,3 +553,45 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.font-IRANSansX {
+  font-family: IRANSansX;
+}
+
+/* @font-face {
+  font-family: IRANSansX;
+  src: url("../fonts/Woff2/IRANSansXFaNum-Bold.woff2")format("woff2");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap; */
+
+/* } */
+
+@font-face {
+  font-family: IRANSansX;
+
+  src: url("../fonts/Woff2/IRANSansXFaNum-Regular.woff2")format("woff2");
+
+  font-style: normal;
+
+  font-weight: 100;
+
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: IRANSansX;
+  src: url("../fonts/woff2/IRANSansXFaNum-Bold.woff2")format("woff2");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: IRANSansX;
+  src: url("../fonts/woff2/IRANSansX-ExtraBold.woff2")format("woff2");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+} */
+
