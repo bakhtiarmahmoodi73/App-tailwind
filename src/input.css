@@ -3,6 +3,9 @@
 @tailwind utilities;
 @layer components {
   .nav {
-    @apply container bg-white w-full h-11 flex gap-4  py-3 px-5 text-xs  text-gray-500 justify-end ;
+    @apply  flex sm:container bg-white sm:w-full sm:h-11 sm:flex sm:gap-4  sm:py-3 sm:px-5 text-xs  text-gray-500 justify-end;
+  }
+  .mobile-nav {
+    @apply hidden gap-1 text-xs   flex-wrap sm:block;
   }
 }

@@ -4,9 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        // res_header: { max: "486px" },
-        // res_nav: {max:"1026px"},
-        // res_banner: {max:"500px"}
+
       },
       colors: {
         bg_header: "#E2E2E2",

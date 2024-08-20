@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tailwind-app</title>
     <link rel="stylesheet" href="./output.css" />
-    <link rel="stylesheet" href="../sass/style.css" />
   </head>
   <body>
     <!-- header -->
     <nav>
       <ul class="nav">
         <li><a href="#">Home</a></li>
-        <span class="md:hidden">|</span>
+        <span class="mobile-nav">|</span>
         <li><a href="#">Submit a Template</a></li>
-        <span class="md:hidden">|</span>
+        <span class="mobile-nav">|</span>
         <li><a href="#">Contact Us</a></li>
-        <span class="md:hidden">|</span>
+        <span class="mobile-nav">|</span>
         <li><a href="#">Search</a></li>
-        <span class="md:hidden">|</span>
+        <span class="mobile-nav">|</span>
         <li><a href="#">Advertise</a></li>
       </ul>
     </nav>
@@ -26,16 +25,16 @@
     <header class="w-screen h-72 bg-bg_header">
       <div class="container w-full bg-green-600">
         <!-- topbanner -->
-        <div class="flex container bg-red-200    justify-between px-5 h-36 res_banner:flex-col">
-          <div class="left py-10 w-1/2">
+        <div class="flex flex-col sm:container sm:flex sm:flex-row bg-red-200 sm:justify-between sm:px-5 sm:h-36 ">
+          <div class="left  sm:w-full sm:py-10 ">
             <h1 class="font-fonts text-6xl opacity-80">
-              <a href="#">Free CSS</a>
+              <a class="inline-block items-center" href="#">Free CSS</a>
             </h1>
             <h2 class="font-fonts text-xs opacity-90 mt-2">
               Free CSS Templates, CSS Layouts & More!
             </h2>
           </div>
-          <div class="right py-14 w-1/2 pl-8">
+          <div class="right sm:py-14 sm:w-full sm:pl-8">
             <a href="#"
               ><img src="../images/elegantthemes-468x60.gif" alt=""
             /></a>
