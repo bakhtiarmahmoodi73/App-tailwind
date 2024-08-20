@@ -1,16 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tailwind-app</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body class="font-IRANSansX">
-   <h1>hello</h1> 
-   <h2>بختیار</h2>
-   <h3 >555577</h3>
-   <h4>5555</h4>
-   <h1>212</h1>
-</body>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="../sass/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <nav>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <span class="md:hidden">|</span>
+        <li><a href="#">Submit a Template</a></li>
+        <span class="md:hidden">|</span>
+        <li><a href="#">Contact Us</a></li>
+        <span class="md:hidden">|</span>
+        <li><a href="#">Search</a></li>
+        <span class="md:hidden">|</span>
+        <li><a href="#">Advertise</a></li>
+      </ul>
+    </nav>
+    <!-- main -->
+    <header class="w-screen h-72 bg-bg_header">
+      <div class="container w-full bg-green-600">
+        <!-- topbanner -->
+        <div class="flex container bg-red-200    justify-between px-5 h-36 res_banner:flex-col">
+          <div class="left py-10 w-1/2">
+            <h1 class="font-fonts text-6xl opacity-80">
+              <a href="#">Free CSS</a>
+            </h1>
+            <h2 class="font-fonts text-xs opacity-90 mt-2">
+              Free CSS Templates, CSS Layouts & More!
+            </h2>
+          </div>
+          <div class="right py-14 w-1/2 pl-8">
+            <a href="#"
+              ><img src="../images/elegantthemes-468x60.gif" alt=""
+            /></a>
+          </div>
+        </div>
+        <div
+          class="bg-bg_banner w-auto mx-5 rounded-t-md res_banner:flex-col items-center"
+        >
+          <nav>
+            <ul
+              class="flex justify-center px-10 py-4 gap-6 text-white font-fonts text-lg  "
+            >
+              <li class=""><a href="#">Free CSS Templates</a></li>
+              <li><a href="#">Premium CSS Templates</a></li>
+              <li><a href="#">Free CSS Layouts</a></li>
+              <li><a href="#">Free CSS Menus</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+  </body>
 </html>

@@ -1,33 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* @font-face {
-  font-family: IRANSansX;
-  src: url("../fonts/Woff2/IRANSansXFaNum-Bold.woff2")format("woff2");
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap; */
-/* } */
-@font-face {
-  font-family: IRANSansX;
-  src: url("../fonts/Woff2/IRANSansXFaNum-Regular.woff2")format("woff2");
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
+@layer components {
+  .nav {
+    @apply container bg-white w-full h-11 flex gap-4  py-3 px-5 text-xs  text-gray-500 justify-end ;
+  }
 }
-/* @font-face {
-  font-family: IRANSansX;
-  src: url("../fonts/woff2/IRANSansXFaNum-Bold.woff2")format("woff2");
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-} */
-/* @font-face {
-  font-family: IRANSansX;
-  src: url("../fonts/woff2/IRANSansX-ExtraBold.woff2")format("woff2");
-  font-style: normal;
-  font-weight: 100;
-  font-display: swap;
-} */
-
