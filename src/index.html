@@ -8,51 +8,54 @@
   </head>
   <body>
     <!-- header -->
-    <nav>
+    <nav class="container">
       <ul class="nav">
         <li><a href="#">Home</a></li>
-        <span class="mobile-nav">|</span>
+        <span class="item-nav">|</span>
         <li><a href="#">Submit a Template</a></li>
-        <span class="mobile-nav">|</span>
+        <span class="item-nav">|</span>
         <li><a href="#">Contact Us</a></li>
-        <span class="mobile-nav">|</span>
+        <span class="item-nav">|</span>
         <li><a href="#">Search</a></li>
-        <span class="mobile-nav">|</span>
+        <span class="item-nav">|</span>
         <li><a href="#">Advertise</a></li>
       </ul>
     </nav>
     <!-- main -->
-    <header class="w-screen h-72 bg-bg_header">
-      <div class="container w-full bg-green-600">
+    <header class="container w-screen h-full bg-bg_header">
+      <div class=" w-full px-4">
         <!-- topbanner -->
-        <div class="flex flex-col sm:container sm:flex sm:flex-row bg-red-200 sm:justify-between sm:px-5 sm:h-36 ">
-          <div class="left  sm:w-full sm:py-10 ">
-            <h1 class="font-fonts text-6xl opacity-80">
-              <a class="inline-block items-center" href="#">Free CSS</a>
+        <div class="top-banner">
+          <div class="left">
+            <h1 class="font-fonts text-6xl sm:text-6xl sm:opacity-80">
+              <a href="#">Free CSS</a>
             </h1>
-            <h2 class="font-fonts text-xs opacity-90 mt-2">
+            <h2 class="font-fonts text-xs opacity-90 mt-1 ml-2 sm:mb-5">
               Free CSS Templates, CSS Layouts & More!
             </h2>
           </div>
-          <div class="right sm:py-14 sm:w-full sm:pl-8">
+          <div class="right py-4">
             <a href="#"
               ><img src="../images/elegantthemes-468x60.gif" alt=""
             /></a>
           </div>
         </div>
         <div
-          class="bg-bg_banner w-auto mx-5 rounded-t-md res_banner:flex-col items-center"
+          class="bg-bg_banner px-8  rounded-t-md sm:mx-2 sm:mt-2"
         >
           <nav>
             <ul
-              class="flex justify-center px-10 py-4 gap-6 text-white font-fonts text-lg  "
+              class="flex flex-col items-center  py-5 gap-2 text-white font-fonts text-lg sm:flex sm:flex-row sm:items-end sm:justify-end  sm:gap-0 sm:pl-12 sm:bg-bg_nav sm "
             >
-              <li class=""><a href="#">Free CSS Templates</a></li>
-              <li><a href="#">Premium CSS Templates</a></li>
-              <li><a href="#">Free CSS Layouts</a></li>
-              <li><a href="#">Free CSS Menus</a></li>
+              <li class="li-nav"><a href="#">Free CSS Templates</a></li>
+              <li class="li-nav"><a href="#">Premium CSS Templates</a></li>
+              <li class="li-nav"><a href="#">Free CSS Layouts</a></li>
+              <li class="li-nav "><a href="#">Free CSS Menus</a></li>
             </ul>
           </nav>
+        </div>
+        <div>
+          555
         </div>
     </header>
   </body>
