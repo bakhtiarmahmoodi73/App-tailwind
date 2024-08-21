@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tailwind-app</title>
     <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="../css/all.css">
   </head>
   <body>
     <!-- header -->
@@ -45,7 +46,7 @@
         >
           <nav class="bg-bg_banner">
             <ul
-              class=" flex flex-col items-center  py-5 gap-2 text-white font-fonts text-lg  sm:flex sm:flex-row sm:items-end sm:justify-end  sm:gap-0 sm:pl-12 sm:bg-bg_nav sm "
+              class=" flex flex-col items-center  py-5 gap-2 text-white font-fonts text-lg  sm:flex sm:flex-row sm:items-end sm:justify-end  sm:gap-0 sm:pl-12 sm:bg-bg_nav sm:w-fit "
             >
               <li class="li-nav"><a href="#">Free CSS Templates</a></li>
               <li class="li-nav"><a href="#">Premium CSS Templates</a></li>
@@ -60,9 +61,46 @@
     </header>
     <main class="container w-screen h-full bg-white">
       <div class="flex">
-        <h1 class="font-fonts bg-red-400 font-bold opacity-80 text-lg flex items-center justify-start pl-5 py-4 w-full sm:w-80">Seo Dream Free CSS Template</h1>
-        <div class=" hidden sm:block sm: bg-bg_header  sm:w-96 sm:h-5"></div>
-        <h1>Our Sponsors</h1>
+        <h1 class="font-fonts  font-bold opacity-80 text-lg flex items-center justify-start pl-5 py-4 w-full sm:w-fit sm:mr-1 sm:flex sm:items-start sm:justify-start ">Seo Dream Free CSS Template</h1>
+        <div class=" hidden sm:block sm: bg-bg_header  sm:w-80 sm:h-5 sm:mx-2 sm:mt-6"></div>
+        <h1 class="hidden sm:block sm:font-fonts sm:font-bold sm:opacity-80 sm:text-lg sm:mx-4 sm:mt-6">Our Sponsors</h1>
+        <div class=" hidden sm:block sm: bg-bg_header sm:ml-2 sm:w-48 sm:h-5 sm:mt-6"></div>
+      </div>
+      <div class="">
+        <ul class="flex sm:relative mx-6 gap-4 items-center" >
+          <li class=" w-12 h-12 rounded-lg text-2xl text-blue-500 flex items-center justify-center border-[1px] border-gray-200 hover:bg-blue-900 hover:text-white"><i class="fa-brands fa-facebook"></i> </li>
+          <li class=" w-12 h-12 rounded-lg text-2xl text-blue-500 flex items-center justify-center border-[1px] border-gray-200 hover:bg-blue-400 hover:text-white"><i class="fa-brands fa-twitter"></i></li>
+          <li class=" w-12 h-12 rounded-lg text-2xl text-red-500 flex items-center justify-center border-[1px] border-gray-200 hover:bg-red-400 hover:text-white"><i class="fa-brands fa-google-plus-g"></i></li>
+          <li class=" w-12 h-12 rounded-lg text-2xl text-blue-500 flex items-center justify-center border-[1px] border-gray-200 hover:bg-blue-200 hover:text-white"><i class="fa-solid fa-circle-user"></i></li>
+          <li class=" w-12 h-12 rounded-lg text-2xl text-red-400 flex items-center justify-center border-[1px] border-gray-200 hover:bg-red-500 hover:text-white"><i class="fa-brands fa-slack"></i></li>
+        </ul>
+      </div>
+      <div class="mt-2  w-fit p-1 ml-5 flex items-center justify-center border-[1px] rounded-md">
+       <img src="../images/seo-dream.jpg" alt="">
+      </div>
+      <div class="bg-red-200 sm:absolute sm:ml-96 sm:top-[450px] ml-5 w-72 flex-col">
+        <div class="flex  mt-4">
+          <span class="mr-2 text-blue-500"><i class="fa-solid fa-share-from-square"></i></span>
+          <h1 class="font-fonts  font-bold text-1xl opacity-80">TemplateMo</h1>
+        </div>
+        <div class="flex  mt-4">
+          <span class="mr-2 text-gray-500"><i class="fa-brands fa-html5"></i></span>
+          <h1 class="font-fonts  font-bold text-1xl opacity-70">HTML 5</h1>
+        </div>
+        <div class="flex  mt-4">
+          <span class="mr-2 text-gray-900"><i class="fa-regular fa-mobile"></i></span>
+          <h1 class="font-fonts  font-bold text-1xl opacity-70">Responsive, 4 Columns</h1>
+        </div>
+        <div class="flex  mt-4">
+          <span class="mr-2 text-gray-700"><i class="fa-solid fa-circle-half-stroke"></i></span>
+          <h1 class="font-fonts  font-bold text-1xl opacity-70">Dark on Light</h1>
+        </div>
+        <div class="flex  mt-4">
+          <span class="mr-2 text-pink-400"><i class="fa-solid fa-radiation"></i></span>
+          <span class="border-[1] border-red-500">
+            1
+          </span>
+        </div>
       </div>
     </main>
   </body>
