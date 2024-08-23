@@ -22,7 +22,18 @@
   }
 }
 @layer components {
-  .main {
+  .mainA {
     @apply font-fonts  font-bold opacity-80 text-lg flex items-center justify-start pl-5 py-4 w-full sm:w-fit sm:mr-1 sm:flex sm:items-start sm:justify-start;
+  }
+  .mainB {
+    @apply flex flex-wrap sm:flex-row  items-center justify-center mt-10 ml-4 sm:ml-32 w-fit;
+  }
+  .mainItem {
+    @apply font-fonts text-blue-500 font-bold text-sm sm:text-sm opacity-70 pl-2;
+  }
+}
+@layer components {
+  .footer {
+    @apply bg-bg_header w-screen mt-10 gap-3 pt-7 flex flex-col items-center font-fonts text-center text-xs text-gray-500 sm:flex sm:flex-row sm:items-center sm:justify-between sm:py-5 sm:px-5;
   }
 }
