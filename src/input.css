@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer components {
   .nav {
-    @apply flex flex-wrap items-center justify-center  my-3  font-fonts text-xs text-gray-500 gap-3 sm:font-fonts sm:text-xs ;
+    @apply flex flex-wrap items-center justify-center  my-3  font-fonts text-xs text-gray-500 gap-3 sm:font-fonts sm:text-xs;
   }
   .item-nav {
     @apply hidden sm:block;
@@ -13,5 +13,16 @@
   }
   .li-nav {
     @apply bg-bg_nav w-72 flex items-center justify-center font-fonts text-base font-medium p-2 h-8  sm:w-52 sm:flex sm:flex-row sm:items-center sm:justify-center;
+  }
+  .navA {
+    @apply container sm:mt-3 w-fit mx-16  sm:w-[430px] sm:mr-2 sm:flex-row sm:gap-6 sm:pl-6   sm:ml-[570px];
+  }
+  .ulnav {
+    @apply flex flex-col items-center  py-5 gap-2 text-white font-fonts text-lg  sm:flex sm:flex-row sm:items-end sm:justify-end  sm:gap-0 sm:pl-12 sm:bg-bg_nav sm:w-fit;
+  }
+}
+@layer components {
+  .main {
+    @apply font-fonts  font-bold opacity-80 text-lg flex items-center justify-start pl-5 py-4 w-full sm:w-fit sm:mr-1 sm:flex sm:items-start sm:justify-start;
   }
 }
