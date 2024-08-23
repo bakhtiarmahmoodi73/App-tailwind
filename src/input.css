@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer components {
   .nav {
-    @apply flex flex-wrap items-center justify-center mx-4 my-3 px-2 font-fonts text-base text-gray-500 gap-4 sm:text-xs sm:flex sm:items-end sm:justify-end sm:mr-4;
+    @apply flex flex-wrap items-center justify-center  my-3  font-fonts text-xs text-gray-500 gap-3 sm:font-fonts sm:text-xs ;
   }
   .item-nav {
     @apply hidden sm:block;
